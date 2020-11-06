@@ -31,7 +31,6 @@ def load_cows(filename):
         cow_dict[line_data[0]] = int(line_data[1])
     return cow_dict
 
-cows = load_cows("ps1_cow_data.txt")
 
 # Problem 1
 def greedy_cow_transport(cows,limit=10):
